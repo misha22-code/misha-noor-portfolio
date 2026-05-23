@@ -2,9 +2,7 @@ import React, { useState } from 'react';
 import {
   Github,
   ExternalLink,
-  Maximize2,
-  Cpu,
-  CheckCircle2
+  Maximize2
 } from 'lucide-react';
 
 import { motion, AnimatePresence } from 'motion/react';
@@ -16,6 +14,8 @@ import { PROJECTS } from '../data';
 
 // @ts-ignore
 import eduAiHubImg from '../assets/images/edu_ai_hub_1779273046204.png';
+
+import chatbotifyImg from '../assets/images/chatbotifyai.png';
 
 // ==========================================
 // VIDEO IMPORTS
@@ -30,7 +30,7 @@ import chatbotifyVideo from '../assets/videos/chatbotify-demo.mp4';
 
 const projectImageMap: Record<string, string> = {
   'edu-ai-hub': eduAiHubImg,
-  'chatbitify-ai': '/src/assets/images/chatbotifyai.png'
+  'chatbitify-ai': chatbotifyImg
 };
 
 // ==========================================
@@ -49,6 +49,7 @@ export default function Projects() {
   const [imageErrors, setImageErrors] = useState<Record<string, boolean>>({});
 
   return (
+
     <section
       id="projects"
       className="py-28 bg-[#070B13] relative border-t border-slate-900/60 overflow-hidden"
@@ -290,5 +291,6 @@ export default function Projects() {
       </AnimatePresence>
 
     </section>
+
   );
 }

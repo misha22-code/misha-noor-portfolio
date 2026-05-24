@@ -146,42 +146,68 @@ export const EXPERIENCES: Experience[] = [
     role: 'AI & Full Stack Developer',
     company: 'Umti Tech Solutions',
     location: 'Islamabad, Pakistan',
-    period: 'Jan 2026 - Present',
+    period: '2025 - Present',
     isCurrent: true,
     bullets: [
-      'Successfully built and delivered 10+ professional client projects spanning AI applications, backend automation scripts, and full-stack web platforms.',
-      'Developed context-aware automated chatbot systems and virtual assistants with prompt validations to avoid analytical hallucinations.',
-      'Designed high-throughput REST APIs and data processing handlers using Python and Flask integrated with responsive modern dashboards.'
+      'Developed AI-powered web applications, automation systems, and modern business solutions for clients and startups.',
+      'Built responsive frontend interfaces and scalable backend APIs using React, Python, and Flask.',
+      'Integrated AI chatbot systems, REST APIs, and database workflows for real-world business operations.'
     ],
-    skillsUtilized: ['Python', 'Flask', 'Generative AI', 'React', 'TypeScript', 'REST APIs', 'PostgreSQL']
+    skillsUtilized: [
+      'Python',
+      'Flask',
+      'React',
+      'TypeScript',
+      'REST APIs',
+      'PostgreSQL',
+      'Generative AI'
+    ]
   },
+
   {
     id: 'xp-junior',
     role: 'Junior AI / Software Engineer',
     company: 'SaaS Contract Solutions',
     location: 'Pakistan',
-    period: '2025 - 2026',
+    period: '2024 - 2025',
     bullets: [
-      'Collaborated hands-on with early founders and startups to translate dynamic functional specifications into operational minimal viable products.',
-      'Assembled clean transactional backend workflows complete with JSON web validation handlers, error collectors, and retry logs.',
-      'Refactored legacy templates into highly optimized, responsive screens with tailored Tailwind classes, increasing speed metrics by 25%.'
+      'Worked on startup MVPs and web-based software solutions for small businesses and digital products.',
+      'Built backend features, API integrations, and responsive frontend interfaces using modern technologies.',
+      'Improved application performance and optimized user experience across multiple projects.'
     ],
-    skillsUtilized: ['Python', 'Flask', 'JavaScript', 'HTML', 'CSS', 'REST APIs', 'Git']
+    skillsUtilized: [
+      'Python',
+      'Flask',
+      'JavaScript',
+      'HTML',
+      'CSS',
+      'REST APIs',
+      'Git'
+    ]
   },
+
   {
     id: 'xp-ml',
     role: 'Machine Learning & Python Projects',
-    company: 'Computer Science Research Practice',
+    company: 'Computer Science Practice',
     location: 'Pakistan',
-    period: '2025',
+    period: '2024',
     bullets: [
-      'Programmed structured regression, forecasting, and classification model pipelines to clean, cluster, and analyze real-world tabular datasets.',
-      'Implemented robust numerical computations and mathematical arrays utilizing pandas, NumPy, and Scikit-Learn libraries.',
-      'Configured stable web analytical scrapers and parsing utilities to supply training data queues securely.'
+      'Developed machine learning and data analysis projects using Python and scientific computing libraries.',
+      'Worked on data preprocessing, prediction models, and automation scripts for educational and research tasks.',
+      'Built analytical tools and experimented with AI workflows and backend integrations.'
     ],
-    skillsUtilized: ['Python', 'pandas', 'NumPy', 'Scikit-Learn', 'Flask', 'Data Scraping']
+    skillsUtilized: [
+      'Python',
+      'pandas',
+      'NumPy',
+      'Scikit-Learn',
+      'Flask',
+      'Data Analysis'
+    ]
   }
 ];
+  
 
 export const SKILL_CATEGORIES: SkillCategory[] = [
   {

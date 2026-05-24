@@ -145,7 +145,7 @@ export const EXPERIENCES: Experience[] = [
     id: 'xp-umti',
     role: 'AI & Full Stack Developer',
     company: 'Umti Tech Solutions',
-    location: 'Islamabad, Pakistan',
+    location: 'Pakistan',
     period: '2025 - Present',
     isCurrent: true,
     bullets: [

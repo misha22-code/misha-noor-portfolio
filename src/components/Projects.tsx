@@ -52,7 +52,7 @@ export default function Projects() {
 
     <section
       id="projects"
-      className="py-28 bg-[#070B13] relative border-t border-slate-900/60 overflow-hidden"
+      className="py-24 bg-[#070B13] relative border-t border-slate-900/60 overflow-hidden"
     >
 
       {/* Background Glow */}
@@ -63,7 +63,7 @@ export default function Projects() {
       <div className="max-w-7xl mx-auto px-6 relative z-10 text-left">
 
         {/* Section Header */}
-        <div className="flex flex-col gap-3 mb-20 max-w-3xl">
+        <div className="flex flex-col gap-3 mb-16 max-w-3xl">
 
           <span className="font-mono text-emerald-400 text-xs font-semibold uppercase tracking-widest flex items-center gap-2">
 
@@ -74,12 +74,13 @@ export default function Projects() {
           </span>
 
           <h2 className="font-display font-bold text-3xl sm:text-4xl text-slate-100 tracking-tight">
-            Real Client & Startup Projects
+            Selected Work & Case Studies
           </h2>
 
           <p className="text-slate-400 text-base leading-relaxed mt-1">
-            A collection of AI platforms, chatbot systems, automation tools,
-            and modern web applications built for startups and businesses.
+            A showcase of AI platforms, chatbot systems, automation tools,
+            and modern web applications developed for startups, businesses,
+            and digital products.
           </p>
 
           <div className="h-[2px] w-12 bg-emerald-500/40 mt-2" />
@@ -87,7 +88,7 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 sm:gap-16">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 sm:gap-12">
 
           {PROJECTS.map((project) => {
 
@@ -124,7 +125,7 @@ export default function Projects() {
                   ) : (
 
                     <div className="w-full h-full flex items-center justify-center bg-slate-900 text-slate-500">
-                      No Image Available
+                      Preview Not Available
                     </div>
 
                   )}
@@ -215,7 +216,7 @@ export default function Projects() {
                         className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/20 text-emerald-400 text-xs font-mono font-semibold transition-all"
                       >
 
-                        <span>Live Demo</span>
+                        <span>Live Preview</span>
 
                         <ExternalLink size={13} />
 
@@ -234,7 +235,7 @@ export default function Projects() {
 
                         <Github size={13} />
 
-                        <span>Source Code</span>
+                        <span>GitHub Repository</span>
 
                       </a>
 

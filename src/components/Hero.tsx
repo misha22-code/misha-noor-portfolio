@@ -64,7 +64,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="font-mono text-emerald-400 font-semibold text-sm tracking-wider uppercase"
           >
-            Misha Noor — Developer Portfolio
+            Misha Noor &mdash; Full Stack & AI Developer
           </motion.span>
 
           {/* MAIN HEADING */}
@@ -74,9 +74,9 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="font-display font-bold text-4xl sm:text-5xl lg:text-[58px] text-slate-100 tracking-tight leading-[1.05] max-w-3xl"
           >
-            Building Smart Web
+           Building Modern Web Experiences
             <br />
-            &amp; AI Solutions
+            &amp; Intelligent AI Solutions
           </motion.h1>
 
           {/* DESCRIPTION */}
@@ -86,8 +86,8 @@ export default function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-slate-400 text-base sm:text-lg max-w-2xl leading-relaxed"
           >
-            I develop modern websites, AI tools, chatbot systems,
-            and automation solutions for startups and businesses.
+            I create scalable websites, AI-powered tools, chatbot systems,
+            and automation solutions for startups, brands, and businesses.
           </motion.p>
 
           {/* BUTTONS */}

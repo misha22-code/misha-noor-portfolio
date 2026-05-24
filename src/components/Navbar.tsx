@@ -64,7 +64,7 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
           onClick={() => handleLinkClick('hero')}
           className="flex items-center gap-2 group cursor-pointer"
         >
-          <div className="w-9 h-9 rounded-lg bg-emerald-500/10 border border-emerald-500/30 flex items-center justify-center font-mono text-emerald-400 font-bold text-lg transition-all duration-300 group-hover:bg-emerald-500/20 group-hover:border-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.1)]">
+          <div className="w-9 h-9 rounded-lg bg-slate-800/70 border border-emerald-500/30 flex items-center justify-center font-mono text-emerald-400 font-bold text-lg transition-all duration-300 group-hover:bg-emerald-500/20 group-hover:border-emerald-400 shadow-[0_0_15px_rgba(16,185,129,0.1)]">
             M
           </div>
           <span className="font-display font-medium text-lg text-slate-100 tracking-tight group-hover:text-emerald-400 transition-colors duration-200">

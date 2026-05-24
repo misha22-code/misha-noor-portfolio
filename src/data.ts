@@ -3,21 +3,21 @@ import { Project, Service, Experience, SkillCategory } from './types';
 export const PERSONAL_INFO = {
   name: 'Misha Noor',
   title: 'AI & Full Stack Developer',
-  subtitle: 'Mobile & Web App Specialist | Python, Flask & Generative AI',
-  headline: 'Building Smart AI Solutions for FinTech Companies & Startups',
+  subtitle: 'Web Developer & AI Solutions Builder',
+  headline: 'Building Smart Web & AI Solutions',
   metrics: [
     { value: '10+', label: 'Projects Delivered' },
     { value: '3+', label: 'Years Experience' },
     { value: '100%', label: 'Client Satisfaction' },
-    { value: '40%', label: 'Process Efficiency Boost' }
+    { value: '40%', label: 'Workflow Efficiency' }
   ],
-  bio: 'I am a passionate AI & Full Stack Developer dedicated to engineering high-caliber, secure, and production-ready applications. With a dual focus on generative AI models (Python/Flask/LangChain) and rich interactive web interfaces, I help early-stage startups and fintech players translate product visions into scalable platforms.',
+  bio: 'AI & Full Stack Developer focused on building modern websites, AI tools, chatbot systems, and automation solutions for startups and businesses.',
   linkedin: 'https://www.linkedin.com/in/misha-noor-a4408b350/',
   github: 'https://github.com/misha22-code',
   email: 'mishaanoor7@gmail.com',
   phone: '03360715305',
   whatsappUrl: 'https://wa.me/923360715305',
-  location: 'Islamabad, Pakistan'
+  location: 'Bhakkar, Pakistan'
 };
 
 export const SERVICES: Service[] = [
